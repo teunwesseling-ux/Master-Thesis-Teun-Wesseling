@@ -1,0 +1,2 @@
+measure,n_stocks,n_pairs,LM_stat,df,p_value,mean_corr,mean_abs_corr,max_abs_corr
+log(RV),10,45,2348.1671708056333,45,0.0,0.41662712503191485,0.41662712503191485,0.8140427523560383
