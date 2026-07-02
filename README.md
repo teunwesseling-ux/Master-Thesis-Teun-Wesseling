@@ -10,8 +10,8 @@ Master Thesis/
 ├── code/                          # the scripts 
 │   ├── 01_export_news.py ... 06_main_models.py
 │   └── checks/vif_collinearity.py
-├── <ticker>.parquet               # per-stock news input for step 2
-├── <TICKER>_finbert_*.parquet     # step 2 output (article + daily)
+├── <ticker>.parquet               # per-stock news input for step 2 (not in dropbox)
+├── <TICKER>_finbert_*.parquet     # step 2 output ((not in dropbox))
 ├── raw data/                      # WRDS TAQ trade files (not in dropbox)
 ├── raw news/                      # raw LSEG news (not in dropbox)
 ├── clean data/                    # cleaned intraday, step 4 output
