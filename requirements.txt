@@ -1,0 +1,27 @@
+# Python 3.10+ recommended.
+# Install with:  pip install -r requirements.txt
+
+# --- core (all steps) ---
+numpy
+pandas
+scipy
+pyarrow            # parquet read/write
+
+# --- step 5 descriptives & step 6 models ---
+matplotlib
+statsmodels
+
+# --- step 2 FinBERT sentiment ---
+torch
+transformers
+tqdm
+
+# --- step 1 news export (HTML cleaning) ---
+beautifulsoup4
+
+# --- step 1 news export: LSEG / Refinitiv workstation (RESTRICTED) ---
+# Requires an authenticated LSEG session; cannot be installed/used without access.
+lseg-data
+
+
+pingouin           # only for checks/vif_collinearity.py (partial correlation)
